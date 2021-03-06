@@ -1,8 +1,19 @@
 body {
     background: #f7f7f7;
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title {
+    color: black;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
     color: black;
 }
 
@@ -27,6 +38,7 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image {
